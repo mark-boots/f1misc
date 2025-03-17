@@ -45,11 +45,13 @@ body {
         outline: 1px solid grey;
 
         > text {
-          filter: drop-shadow(2px 2px 2px);
-          fill: red;
-          stroke: white;
-          stroke-width: 0.5;
-          font-family: "F1Bold", sans-serif;
+          filter: drop-shadow(2px 2px 4px);
+          fill: white;
+          paint-order: stroke;
+          stroke: black;
+          stroke-width: 2;
+          font-family: F1Bold, sans-serif;
+          font-weight: bold;
         }
       }
     }
