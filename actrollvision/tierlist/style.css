@@ -1,43 +1,74 @@
 @font-face {
-  font-family: 'F1Bold';
-  src: url('fonts/F1Bold.woff2') format('woff2');
+  font-family: "F1Bold";
+  src: url("fonts/F1Bold.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
-body { 
-  margin: 0; 
-  height: 100vh; 
-  display: grid; 
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
   place-items: center;
+  background-color: black;
+  --w: 3vw;
+  --g: 0.5vw;
+  background-image: linear-gradient(
+    100deg,
+    transparent calc(50% - var(--g) * 1.5 - var(--w) * 2),
+    #dc0440 0 calc(50% - var(--g) * 1.5 - var(--w) * 1),
+    transparent 0 calc(50% - var(--g) * 0.5 - var(--w) * 1),
+    #ffd500 0 calc(50% - var(--g) * 0.5 - var(--w) * 0),
+    transparent 0 calc(50% + var(--g) * 0.5 + var(--w) * 0),
+    #96bf04 0 calc(50% + var(--g) * 0.5 + var(--w) * 1),
+    transparent 0 calc(50% + var(--g) * 1.5 + var(--w) * 1),
+    #7eabfd 0 calc(50% + var(--g) * 1.5 + var(--w) * 2),
+    transparent 0
+  );
 }
 
-.tierlist{
+.tierlist {
   display: grid;
   max-width: 90vmin;
+  backdrop-filter: blur(20px);
   > * {
     grid-area: 1/1;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1vmin;
-    &.numbering > svg { 
-      outline: 1px solid black;
-      > text {
-        fill: red;
-        font-family: 'F1Bold', sans-serif;
-      }
+    &.numbering {
       
-    }
-    &#drivers img {
-      width: 100%;
-      cursor: grab;
-      &:active {
-        cursor: grabbing;
+      > svg {
+        
+        background: hsl(0 0 100% / 0.2);
+
+        outline: 1px solid grey;
+
+        > text {
+          filter: drop-shadow(2px 2px 2px);
+          fill: red;
+          stroke: white;
+          stroke-width: 0.5;
+          font-family: "F1Bold", sans-serif;
+        }
       }
+    }
+    &#drivers {
+      div {
+      width: 100%;
+      aspect-ratio: 1/1;
+      overflow: hidden;
+      img {
+        width: 100%;
+        cursor: grab;
+        filter: drop-shadow(8px 8px 4px hsl(0 0 0 / .5));
+        
+        &:active {
+          cursor: grabbing;
+        }
+      }
+     
     }
   }
+  }
 }
-
-
-
-
