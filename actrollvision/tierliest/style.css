@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'F1Bold';
+  src: url('fonts/F1Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body { 
+  margin: 0; 
+  height: 100vh; 
+  display: grid; 
+  place-items: center;
+}
+
+.tierlist{
+  display: grid;
+  max-width: 90vmin;
+  container: inline-size;
+  > * {
+    grid-area: 1/1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1cqi;
+    &.numbering > svg { 
+      outline: 1px solid black;
+      > text {
+        fill: red;
+        font-family: 'F1Bold', sans-serif;
+      }
+      
+    }
+    &#drivers img {
+      width: 100%;
+      cursor: grab;
+      &:active {
+        cursor: grabbing;
+      }
+    }
+  }
+}
+
+
+
+
