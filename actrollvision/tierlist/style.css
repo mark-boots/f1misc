@@ -15,12 +15,11 @@ body {
 .tierlist{
   display: grid;
   max-width: 90vmin;
-  container: inline-size;
   > * {
     grid-area: 1/1;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 1cqi;
+    gap: 1vmin;
     &.numbering > svg { 
       outline: 1px solid black;
       > text {
