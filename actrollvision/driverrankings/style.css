@@ -35,6 +35,8 @@ body {
   );
 }
 
+
+
 .tierlist {
   display: grid;
   max-width: 90vmin;
@@ -47,7 +49,6 @@ body {
     &.numbering {
       > svg {
         background: hsl(0 0 100% / 0.2);
-
         outline: 1px solid grey;
 
         > text {
