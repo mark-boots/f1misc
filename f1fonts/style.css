@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'F1YEAR';
+  src: url('F1YEAR.woff2') format('woff2'), url('F1YEAR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Formula1 Display-Black';
+  src: url('Formula1 Display-Black.woff2') format('woff2'), url('Formula1 Display-Black.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Formula1 Display-Bold';
+  src: url('Formula1 Display-Bold.woff2') format('woff2'), url('Formula1 Display-Bold.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Formula1 Display-Italic';
+  src: url('Formula1 Display-Italic.woff2') format('woff2'), url('Formula1 Display-Italic.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Formula1 Display-Regular';
+  src: url('Formula1 Display-Regular.woff2') format('woff2'), url('Formula1 Display-Regular.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Formula1 Display-Wide';
+  src: url('Formula1 Display-Wide.woff2') format('woff2'), url('Formula1 Display-Wide.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Northwell';
+  src: url('Northwell-Alt.woff2') format('woff2'), url('Northwell-Alt.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Northwell-Alt';
+  src: url('Northwell.woff2') format('woff2'), url('Northwell.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Northwell-Swash';
+  src: url('Northwell-Swash.woff2') format('woff2'), url('Northwell-Swash.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Interference Site Light';
+  src: url('KH Interference Site Light.woff2') format('woff2'), url('KH Interference Site Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: 'KH Interference Site Regular';
+  src: url('KH Interference Site Regular.woff2') format('woff2'), url('KH Interference Site Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Interference Site Bold';
+  src: url('KH Interference Site Bold.woff2') format('woff2'), url('KH Interference Site Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
